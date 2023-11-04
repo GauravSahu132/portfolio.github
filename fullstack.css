@@ -1,0 +1,64 @@
+body{
+    background-image: url('fullStack.jpg');
+}
+.btn {
+    background-color: rgb(218, 161, 192); /* Blue background */
+    border: none; /* Remove borders */
+    border-radius: 5px;
+    color: white; /* White text */
+    padding: 10px 14px; /* Some padding */
+    font-size: 14px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: rgb(177, 225, 65);
+    font-size: 16px;
+  }
+
+  #desktop:hover{
+    height: 31%;
+    width: 31%;
+  }
+  h1{
+    color: rgb(99, 17, 17);
+    text-align: center;
+  }
+  h1:hover{
+    color: rgb(214, 68, 68);
+  }
+  h2{
+    color: black;
+  }
+  h2:hover{
+    color: rgb(133, 86, 15);
+  }
+  .fs:hover{
+    font-size: 15px;
+    background-color: rgb(170, 229, 229)
+  }
+
+  .fd2:hover{
+    font-size: 15px;
+    background-color: rgb(197, 236, 92);
+  }
+  pre{
+    font-size: 15px;
+    text-align: center;
+    margin-right: 10%;
+  }
+  .fSet{
+    display: block;
+    height: 30%;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .fSet:hover{
+    height: 33%;
+    width: 33%;
+  }
+  .dsh1:hover{
+    color: rgb(215, 15, 68);
+  }

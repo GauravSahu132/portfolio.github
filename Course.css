@@ -1,0 +1,17 @@
+h1{
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1:hover{
+    color: aquamarine;
+    font-size: 35px;
+}
+pre{
+    color: rgb(156, 239, 73);
+    font-size: 15px;
+}
+pre:hover{
+    color: rgb(221, 100, 161);
+    font-size: 17px;
+
+}

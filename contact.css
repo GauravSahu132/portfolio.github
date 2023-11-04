@@ -1,0 +1,104 @@
+body{
+    background-image: url('contactBack.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+h4{
+    font-size: 20px;
+    background-color: rgb(105, 229, 188);
+    margin-right: 90%;
+}
+h4:hover{
+    background-color: rgb(141, 43, 207);
+}
+.foot{
+    background-color: aqua;
+}
+.foot:hover{
+    font-size: 15px;
+}
+#heading{
+    text-align: justify;
+    color: purple;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-right: 75%;
+    animation-name: ani;
+    animation-duration: 5s;
+    position: relative;
+    animation-iteration-count: infinite;
+}
+#heading:hover{
+    background-image: url('fullStack.jpg');
+}
+@keyframes ani {
+    0%{color: cyan; left: 0px;}
+    30%{color: yellow; left: 90px;}
+    50%{color: rgb(0, 255, 26); left: 0px;}
+    80%{color: rgb(0, 119, 255); left: 90px;}
+    100%{color: rgb(225, 58, 225); left: 0px;}
+}
+p{
+    color: aquamarine;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+div{
+    text-align: end;
+    margin-right: 5%;
+}
+video{
+    border: 10px solid salmon;
+    border-radius: 10px;
+}
+video:hover{
+    border: 10px solid wheat;
+    border-radius: 0px;
+}
+.btn {
+    background-color: DodgerBlue; /* Blue background */
+    border: none; /* Remove borders */
+    border-radius: 5px;
+    color: white; /* White text */
+    padding: 10px 14px; /* Some padding */
+    font-size: 14px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: rgb(65, 188, 225);
+    font-size: 16px;
+  }
+  #b1{
+    background-color: aquamarine;
+    font-size: medium;
+  }
+
+  #b1:hover{
+    background-color: azure;
+    font-size: large;
+  }
+  .KM{
+    background-color: rgb(43, 226, 168);
+  }
+  .KM:hover{
+    background-color: rgb(171, 226, 43);
+    font-size: 15px;
+  }
+  label{
+    color: rgb(64, 208, 114);
+  }
+  .hii{
+    color: rgb(210, 87, 126);
+  }
+  input{
+    background-color: rgb(175, 221, 141);
+  }
+  input:hover{
+    background-color: aquamarine;
+    font-size: 15px;
+  }
+  textarea{
+    background-color: rgb(175, 221, 141);
+  }
